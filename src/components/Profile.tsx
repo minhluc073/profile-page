@@ -1,3 +1,4 @@
+// @ts-nocheck
 import {
     MDBBtn,
     MDBCard,
@@ -13,6 +14,8 @@ import {
     MDBProgressBar,
     MDBRow
 } from "mdb-react-ui-kit";
+
+
 import React from "react";
 
 export default function ProfilePage() {
@@ -24,16 +27,16 @@ export default function ProfilePage() {
             <MDBCard className="mb-4">
               <MDBCardBody className="text-center">
                 <MDBCardImage
-                  src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"
+                  src='/assets/images/avt.jpg'
                   alt="avatar"
                   className="rounded-circle"
                   style={{ width: "150px" }}
                   fluid
                 />
-                <p className="text-muted mb-1">Full Stack Developer</p>
-                <p className="text-muted mb-4">Bay Area, San Francisco, CA</p>
+                <p className="text-muted mb-1">Software developer</p>
+                <p className="text-muted mb-4">Ho Chi Minh, VN</p>
                 <div className="d-flex justify-content-center mb-2">
-                  <MDBBtn>Follow</MDBBtn>
+                  <MDBBtn>My CV</MDBBtn>
                   <MDBBtn outline className="ms-1">
                     Message
                   </MDBBtn>
@@ -46,7 +49,7 @@ export default function ProfilePage() {
                 <MDBListGroup flush className="rounded-3">
                   <MDBListGroupItem className="d-flex justify-content-between align-items-center p-3">
                     <MDBIcon fas icon="globe fa-lg text-warning" />
-                    <MDBCardText>https://mdbootstrap.com</MDBCardText>
+                    <MDBCardText>https://mdbootstrap.comn</MDBCardText>
                   </MDBListGroupItem>
                   <MDBListGroupItem className="d-flex justify-content-between align-items-center p-3">
                     <MDBIcon
@@ -54,15 +57,15 @@ export default function ProfilePage() {
                       icon="github fa-lg"
                       style={{ color: "#333333" }}
                     />
-                    <MDBCardText>mdbootstrap</MDBCardText>
+                    <MDBCardText><a href="https://github.com/minhluc073">Github</a></MDBCardText>
                   </MDBListGroupItem>
                   <MDBListGroupItem className="d-flex justify-content-between align-items-center p-3">
                     <MDBIcon
                       fab
-                      icon="twitter fa-lg"
+                      icon="linkedin fa-lg"
                       style={{ color: "#55acee" }}
                     />
-                    <MDBCardText>@mdbootstrap</MDBCardText>
+                    <MDBCardText><a href="https://www.linkedin.com/in/minh-l%E1%BB%B1c-nguy%E1%BB%85n-68a19b247/">Linkedin</a></MDBCardText>
                   </MDBListGroupItem>
                   <MDBListGroupItem className="d-flex justify-content-between align-items-center p-3">
                     <MDBIcon
@@ -70,7 +73,7 @@ export default function ProfilePage() {
                       icon="instagram fa-lg"
                       style={{ color: "#ac2bac" }}
                     />
-                    <MDBCardText>mdbootstrap</MDBCardText>
+                    <MDBCardText><a href="https://www.instagram.com/nm_luc/">Instagram</a></MDBCardText>
                   </MDBListGroupItem>
                   <MDBListGroupItem className="d-flex justify-content-between align-items-center p-3">
                     <MDBIcon
@@ -78,7 +81,7 @@ export default function ProfilePage() {
                       icon="facebook fa-lg"
                       style={{ color: "#3b5998" }}
                     />
-                    <MDBCardText>mdbootstrap</MDBCardText>
+                    <MDBCardText><a href="https://www.facebook.com/MinhLucN">Facebook</a></MDBCardText>
                   </MDBListGroupItem>
                 </MDBListGroup>
               </MDBCardBody>
@@ -93,7 +96,7 @@ export default function ProfilePage() {
                   </MDBCol>
                   <MDBCol sm="9">
                     <MDBCardText className="text-muted">
-                      Johnatan Smith
+                      Nguyen Minh Luc
                     </MDBCardText>
                   </MDBCol>
                 </MDBRow>
@@ -104,7 +107,7 @@ export default function ProfilePage() {
                   </MDBCol>
                   <MDBCol sm="9">
                     <MDBCardText className="text-muted">
-                      example@example.com
+                      nguyenminhluc0703@gmail.com
                     </MDBCardText>
                   </MDBCol>
                 </MDBRow>
@@ -115,18 +118,7 @@ export default function ProfilePage() {
                   </MDBCol>
                   <MDBCol sm="9">
                     <MDBCardText className="text-muted">
-                      (097) 234-5678
-                    </MDBCardText>
-                  </MDBCol>
-                </MDBRow>
-                <hr />
-                <MDBRow>
-                  <MDBCol sm="3">
-                    <MDBCardText>Mobile</MDBCardText>
-                  </MDBCol>
-                  <MDBCol sm="9">
-                    <MDBCardText className="text-muted">
-                      (098) 765-4321
+                      0394185897
                     </MDBCardText>
                   </MDBCol>
                 </MDBRow>
@@ -137,7 +129,18 @@ export default function ProfilePage() {
                   </MDBCol>
                   <MDBCol sm="9">
                     <MDBCardText className="text-muted">
-                      Bay Area, San Francisco, CA
+                     Go Vap, Ho Chi Minh, VN
+                    </MDBCardText>
+                  </MDBCol>
+                </MDBRow>
+                <hr />
+                <MDBRow>
+                  <MDBCol sm="3">
+                    <MDBCardText>Education</MDBCardText>
+                  </MDBCol>
+                  <MDBCol sm="9">
+                    <MDBCardText className="text-muted">
+                      Dai Hoc Da Nang
                     </MDBCardText>
                   </MDBCol>
                 </MDBRow>
