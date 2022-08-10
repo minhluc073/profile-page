@@ -22,7 +22,6 @@ export default function ModalCV({
   isOpen = false,
   toggleShow = () => {},
   children = () => {},
-  title = "Modal title",
   btnClose = "close",
 }: ModalCVProps) {
   return (
@@ -31,7 +30,7 @@ export default function ModalCV({
         <MDBModalDialog size='lg' centered>
           <MDBModalContent>
             <MDBModalHeader>
-              <MDBModalTitle>{title}</MDBModalTitle>
+              {/* <MDBModalTitle>{title}</MDBModalTitle> */}
               <MDBBtn
                 className="btn-close"
                 color="none"
